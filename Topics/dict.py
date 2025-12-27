@@ -4,8 +4,7 @@
 # order not preserved prior to python 3.7, from 3.7 onwards order is preserved
 # mutable
 # not index-based
-
-"""my_dict = {
+my_dict = {
     "eid": "101",
     "name": "RG",
     "esalary": 75000,
@@ -21,24 +20,24 @@ user_info = {
      "age": 48
 }
 del user_info['is_active']  # deleting a key-value pair
-print(user_info['username'])
+print(user_info["username"])
 print(user_info['loc'])
 user_info['loc'] = "USA"  # updating existing key
 user_info['password'] = "new_password@123"
 print(user_info['age'])
 print(user_info)
 
-new_dict = {
- "name": "Tarun",
- "profession": "Software Engineer",
- "age": 22,
- "age": 27,
- "is_active": True,
-}
-print(new_dict)
-print(new_dict["is_active"])
-del new_dict["is_active"]
-print(new_dict)"""
+# new_dict = {
+#  "name": "Tarun",
+#  "profession": "Software Engineer",
+#  "age": 22,
+#  "age": 27,
+#  "is_active": True,
+# }
+# print(new_dict)
+# print(new_dict["is_active"])
+# del new_dict["is_active"]
+# print(new_dict)
 
 """for i in range(5):
     for j in range(i, 5):

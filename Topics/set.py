@@ -15,5 +15,5 @@ for item in s:
     print(item)
 # print(s[0]) # this will raise an error as sets are not subscriptable
 s.add(20) #duplicates not allowed
-print(s)
+s.add([1,2,3])
 

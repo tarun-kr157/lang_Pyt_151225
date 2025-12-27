@@ -1,3 +1,16 @@
+# Create a list of programming languages
+languages = ["Java", "C++", "Python", "JavaScript", "Ruby", "Go"]
+
+# Check if "Python" is in the list
+if "Python" in languages:
+    print("Python is in the list")
+else:
+    print("Python is not in the list")
+
+
+
+
+# Input a number and check if it's even or odd
 # to verify the whether the element is present in the sequence or not
 # membership operators are used to verify the whether the element is present in the sequence or not
 # in and not in are membership operators
